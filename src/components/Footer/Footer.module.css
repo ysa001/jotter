@@ -1,0 +1,54 @@
+.Footer {
+    margin-top: 100px;
+    height: 312px;    
+    display: flex; 
+}
+
+.Footer .darkshade,
+.Footer .lightshade {
+    width: 50%;
+    color: #fff;
+    padding: 10px;
+    background-color: #0B2531;
+    padding: 50px 0;
+}
+
+
+.Footer .lightshade {
+    background: rgba(11, 37, 49, 0.93);
+}
+
+.Footer .lightshade h4,
+.Footer .lightshade p {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+
+.Footer .list {
+    margin: 15px auto;
+    height: 50px;
+    display: flex;
+    width: 40%;
+}
+
+
+.Footer .list .icon {
+    height: 50px;
+    width: 50px;
+    padding: 12px 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.16);
+    margin-right: 10px;
+}
+
+.Footer img {
+    /* width: 48.02px;
+    height: 42.39px; */
+    width:100%;
+    margin: auto;
+    text-align: center;
+}

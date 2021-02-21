@@ -1,0 +1,19 @@
+.Contact {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+   
+}
+
+.Contact .ImageContainer {
+    text-align: left;
+    height: 567px;
+    width: 45%;
+    
+}
+
+.Contact .ImageContainer img{
+    height: 100%;
+}
+
