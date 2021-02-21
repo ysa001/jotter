@@ -1,0 +1,83 @@
+.Showcase {
+    width: 100%;
+    height: 628px;
+    max-width: 1569px;
+    overflow-x: hidden;
+    margin: -125px auto auto;
+    background-image: url('../../../assets/images/jotter-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    align-items: flex-end;
+}
+
+.Showcase img {
+    height: 457px;
+    padding: 10px 0px 10px 20px;
+    box-sizing: border-box;
+}
+
+.Showcase .tagline{
+    height: 457px;
+    width: 100%;
+    padding: 70px 70px 20px 0;
+    line-height: 20px;
+    font-size: 30px;
+    text-align: right;
+    color: #fff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.Showcase .buttonContainer {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    height: 60px; 
+    width: 250px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.Showcase .buttonShadow {
+    margin: auto;
+    height: 40px;
+    width: 178px;
+    background-color: #E0563B;
+    border-radius: 7px;
+    transform: translateY(-4px);
+    transition: 0.5s;
+}
+
+.Showcase button {
+    height: 40px;
+    width: 178px;
+    font-size: 18px;
+    font-family: inherit;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 7px;   
+    position: relative;
+    text-align: center;
+    top: -32px;
+    right: -10px;
+    outline: none;  
+    transition: 0.5s;
+}
+
+.Showcase button:hover{
+    transform: translateY(-8px);
+}
+
+.Showcase button:active{
+    transform: translate(-8px, -12px);
+}
+
+
+
+
+
+
+/* #E0563B */

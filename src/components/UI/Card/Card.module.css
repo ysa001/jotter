@@ -1,0 +1,17 @@
+.Card {
+    margin:auto;
+    height: 260px;
+    width: 283px;
+    color: #000;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-left: 16px solid #34596F;
+    border-radius: 1px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Card .imgContainer {
+    margin: 30px auto;
+    height: 96px;
+}
